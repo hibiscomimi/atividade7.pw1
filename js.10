@@ -1,0 +1,22 @@
+let num = Number(prompt("Digite um número para verificar se ele é primo:"));
+
+
+let Primo = true;
+
+if (num < 2) {
+    Primo = false;
+} else {
+  
+    for (let a = 2; a <= Math.sqrt(num); a++) {
+        if (num % a === 0) {
+            Primo = false;
+            break;
+        }
+    }
+}
+
+if (Primo) {
+    alert(num + " Este número é primo.");
+} else {
+    alert(num + " Este não é um número primo.");
+}
