@@ -1,0 +1,8 @@
+for (let ag = 1; ag <= 5; ag++) {
+   
+    let linha = "";
+    for (let a= 1; a <= ag; a++) {
+        linha += ag;
+    }
+    alert(linha);
+}
