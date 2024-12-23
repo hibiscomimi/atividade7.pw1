@@ -1,0 +1,6 @@
+for (let ag = 1; ag <= 50; ag++) {
+
+    if (ag % 3 === 0 || ag % 5 === 0) {
+        alert(ag);
+    }
+}
