@@ -1,0 +1,18 @@
+let numeros = "";
+let num;
+
+while (true) {
+
+    num = Number(prompt("Digite um numero (digite 0 caso quiser parar):"));
+  
+    if (num === 0) {
+        break;
+    }
+
+    if (numeros !== "") {
+        numeros += ", "; 
+    }
+    numeros += num;
+}
+
+alert("Numeros digitados: " + numeros);
